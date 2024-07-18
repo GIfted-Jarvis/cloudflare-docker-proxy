@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": dockerHub,
-  "quay.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": "https://quay.io",
-  "gcr.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": "https://gcr.io",
-  "k8s-gcr.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": "https://k8s.gcr.io",
-  "k8s.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": "https://registry.k8s.io",
-  "ghcr.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": "https://ghcr.io",
-  "cloudsmith.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": "https://docker.cloudsmith.io",
-  "ecr.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": "https://public.ecr.aws",
+  "docker.docker-proxy.jianyang.li": dockerHub,
+  "quay.docker-proxy.jianyang.li": "https://quay.io",
+  "gcr.docker-proxy.jianyang.li": "https://gcr.io",
+  "k8s-gcr.docker-proxy.jianyang.li": "https://k8s.gcr.io",
+  "k8s.docker-proxy.jianyang.li": "https://registry.k8s.io",
+  "ghcr.docker-proxy.jianyang.li": "https://ghcr.io",
+  "cloudsmith.docker-proxy.jianyang.li": "https://docker.cloudsmith.io",
+  "ecr.docker-proxy.jianyang.li": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.cloudflare-docker-proxy.giftedl-jarvis.workers.dev": dockerHub,
+  "docker-staging.docker-proxy.jianyang.li": dockerHub,
 };
 
 function routeByHosts(host) {
